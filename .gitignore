@@ -1,4 +1,46 @@
-venv/
+# Python cache and compiled files
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Environment variable files
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Selenium/Browser drivers
+chromedriver*
+geckodriver*
+msedgedriver*
+
+# Screenshots and outputs
+confirmation.png
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
